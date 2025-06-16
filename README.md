@@ -10,6 +10,10 @@ Welcome to the AIO 2025 Journey repository! This repository contains the learnin
   - Basic concepts and setup
   - Initial exercises and assignments
 
+- Trung đang sửa ở đây
+
+
+
 ### Week 2
 - [Week 2 Materials](./week2)
   - Advanced concepts 
