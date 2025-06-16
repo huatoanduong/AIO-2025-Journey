@@ -10,6 +10,7 @@ Welcome to the AIO 2025 Journey repository! This repository contains the learnin
   - Basic concepts and setup
   - Initial exercises and assignments
 
+- Trung đang sửa ở đây
   - Nam sua o day 
 ### Week 2
 - [Week 2 Materials](./week2)
@@ -57,7 +58,15 @@ Feel free to contribute to this repository by:
 - Suggesting improvements
 - Submitting pull requests
 
+Toàn sửa ở đây
+
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+Toàn sửa hàng cuối, 
+Hàng thứ 2,
+Hàng thứ 3
 Nam sua hang cuoi
