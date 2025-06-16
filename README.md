@@ -10,6 +10,7 @@ Welcome to the AIO 2025 Journey repository! This repository contains the learnin
   - Basic concepts and setup
   - Initial exercises and assignments
 
+  - Nam sua o day 
 ### Week 2
 - [Week 2 Materials](./week2)
   - Advanced concepts 
@@ -59,3 +60,4 @@ Feel free to contribute to this repository by:
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+Nam sua hang cuoi
