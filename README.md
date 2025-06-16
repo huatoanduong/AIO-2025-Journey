@@ -28,6 +28,13 @@ Welcome to the AIO 2025 Journey repository! This repository contains the learnin
   - Review and assessment
   - Best practices and tips
 
+### Week 5
+- [Week 5 Materials](./week5)
+  - SQL Fundamentals
+  - JOIN Operations
+  - GROUP BY and Aggregations
+  - Practical Database Exercises
+
 ## Getting Started
 
 1. Clone this repository
@@ -51,4 +58,4 @@ Feel free to contribute to this repository by:
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
+This project is licensed under the MIT License - see the LICENSE file for details.
