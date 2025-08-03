@@ -1,10 +1,11 @@
 # AIO 2025 Journey
 
-Welcome to the AIO 2025 Journey repository! This repository contains the learning materials and exercises organized by weeks.
+Chào mừng đến với hành trình học của nhóm AIO 2025.
+Blog này sẽ bao gồm các keynote theo tuần của từng module
 
-## Weekly Content
+## Nội dung Module
 
-### Week 1
+### Module 1
 - [Week 1 Materials](./week1)
   - Introduction to AIO
   - Basic concepts and setup
@@ -64,9 +65,3 @@ Toàn sửa ở đây
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-
-Toàn sửa hàng cuối, 
-Hàng thứ 2,
-Hàng thứ 3
-Nam sua hang cuoi
