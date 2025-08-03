@@ -6,13 +6,11 @@ Blog này sẽ bao gồm các keynote theo tuần của từng module
 ## Nội dung Module
 
 ### Module 1
-- [Week 1 Materials](./week1)
+- [Week 1 Materials](./Module%201/week1)
   - Introduction to AIO
   - Basic concepts and setup
   - Initial exercises and assignments
 
-- Trung đang sửa ở đây
-  - Nam sua o day 
 ### Week 2
 - [Week 2 Materials](./week2)
   - Advanced concepts 
