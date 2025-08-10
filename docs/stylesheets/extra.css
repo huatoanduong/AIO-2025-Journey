@@ -1,0 +1,210 @@
+/* AIO2025 Learning Journey - Custom Styles */
+
+/* Custom color scheme */
+:root {
+  --aio-primary: #2563eb;
+  --aio-secondary: #7c3aed;
+  --aio-accent: #06b6d4;
+  --aio-success: #10b981;
+  --aio-warning: #f59e0b;
+  --aio-error: #ef4444;
+}
+
+/* Custom header styling */
+.md-header {
+  background: linear-gradient(135deg, var(--aio-primary), var(--aio-secondary));
+}
+
+/* Custom navigation styling */
+.md-nav__title {
+  color: var(--aio-primary);
+  font-weight: 600;
+}
+
+/* Custom link styling */
+.md-content a {
+  color: var(--aio-primary);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom-color 0.3s ease;
+}
+
+.md-content a:hover {
+  border-bottom-color: var(--aio-primary);
+}
+
+/* Custom button styling */
+.md-button {
+  background-color: var(--aio-primary);
+  border-color: var(--aio-primary);
+  color: white;
+}
+
+.md-button:hover {
+  background-color: var(--aio-secondary);
+  border-color: var(--aio-secondary);
+}
+
+/* Custom card styling for modules */
+.module-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.module-card:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.module-card h3 {
+  color: var(--aio-primary);
+  margin-top: 0;
+}
+
+/* Custom progress bar styling */
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background-color: #e5e7eb;
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 1rem 0;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--aio-success), var(--aio-accent));
+  transition: width 0.3s ease;
+}
+
+/* Custom tag styling */
+.tag {
+  display: inline-block;
+  background-color: var(--aio-accent);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  margin: 0.25rem;
+  text-decoration: none;
+}
+
+.tag:hover {
+  background-color: var(--aio-secondary);
+  color: white;
+  text-decoration: none;
+}
+
+/* Custom table styling */
+.md-typeset table {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.md-typeset table th {
+  background-color: var(--aio-primary);
+  color: white;
+  font-weight: 600;
+}
+
+/* Custom code block styling */
+.md-typeset code {
+  background-color: #f3f4f6;
+  color: var(--aio-secondary);
+  padding: 0.125rem 0.25rem;
+  border-radius: 4px;
+  font-size: 0.875em;
+}
+
+.md-typeset pre > code {
+  background-color: #1f2937;
+  color: #f9fafb;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/* Custom admonition styling */
+.md-typeset .admonition {
+  border-radius: 8px;
+  border-left: 4px solid var(--aio-primary);
+}
+
+.md-typeset .admonition.info {
+  border-left-color: var(--aio-accent);
+}
+
+.md-typeset .admonition.warning {
+  border-left-color: var(--aio-warning);
+}
+
+.md-typeset .admonition.tip {
+  border-left-color: var(--aio-success);
+}
+
+/* Custom footer styling */
+.md-footer {
+  background: linear-gradient(135deg, var(--aio-secondary), var(--aio-primary));
+  color: white;
+}
+
+.md-footer-copyright {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Responsive design improvements */
+@media (max-width: 768px) {
+  .module-card {
+    padding: 1rem;
+    margin: 0.5rem 0;
+  }
+  
+  .md-content {
+    padding: 1rem;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--aio-primary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--aio-secondary);
+}
+
+/* Custom focus states for accessibility */
+.md-content a:focus,
+.md-button:focus {
+  outline: 2px solid var(--aio-accent);
+  outline-offset: 2px;
+}
+
+/* Custom animation for page transitions */
+.md-content {
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} 
