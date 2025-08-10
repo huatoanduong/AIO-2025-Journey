@@ -1,11 +1,11 @@
 site_name: AIO2025 Learning Journey
 site_description: A collaborative learning progress blog for tracking weekly progress through the AIO2025 course
 site_author: AIO2025 Team
-site_url: https://[your-username].github.io/AIO-2025-Journey/
+# site_url: https://[your-username].github.io/AIO-2025-Journey/
 
 # Repository information
 repo_name: AIO-2025-Journey
-repo_url: https://github.com/[your-username]/AIO-2025-Journey
+# repo_url: https://github.com/[your-username]/AIO-2025-Journey
 edit_uri: edit/main/docs/
 
 docs_dir: docs
@@ -80,8 +80,8 @@ nav:
 plugins:
   - search
   - tags
-  - git-revision-date-localized:
-      enable_creation_date: true
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
   - minify:
       minify_html: true
 
@@ -125,9 +125,6 @@ markdown_extensions:
           format: pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
-      combine_header_slug: true
-      slug_sequence: 1
-      tabs_style: material
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
